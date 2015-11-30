@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
     
 var th,tr,td1,td2;
 $(document).ready(function(){
-	   $.get("/getItems", function(obj, status){
+	   $.get("/getItems/1", function(obj, status){
          th="<tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>";
            $("#table1").append(th);
     for(var i=0;i<obj.length;i++)
