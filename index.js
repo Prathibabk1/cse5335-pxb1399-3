@@ -13,13 +13,7 @@ app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
   response.render('pages/index');
 });
-
-app.get('/getItems', function(req, res) {
-
-    res.contentType('application/json');
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.json(obj);
-}); 
+ 
 
 var obj;
 app.get('/getItems/:id', function(req, res, next) {
@@ -42,11 +36,11 @@ myCollection.findOne({ID:id},function(err, result){
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
 obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
 obj=result;
+console.log(obj+"************8obj************");
 }); 
 
 });
- res.contentType('application/json');
- res.setHeader("Access-Control-Allow-Origin", "*");   
+   
  res.send(obj);   
     
 }); 
