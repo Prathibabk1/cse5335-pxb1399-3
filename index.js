@@ -34,7 +34,7 @@ app.get('/getItems/:id', function(req, res, next) {
 
 myCollection= database.collection('test'); 
 
-myCollection.findOne({ID:1},function(err, result){
+myCollection.findOne({ID:id},function(err, result){
   if(err)
         console.log( err);
     else  
