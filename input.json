@@ -1,0 +1,1343 @@
+[
+  {
+    "ID": 1,
+    "UNITID": 100654,
+    "INSTNM": "Alabama A & M University",
+    "ADDR": "4900 Meridian Street",
+    "CITY": "Normal",
+    "STABBR": "AL",
+    "ZIP": 35762
+  },
+  {
+    "ID": 2,
+    "UNITID": 100663,
+    "INSTNM": "University of Alabama at Birmingham",
+    "ADDR": "Administration Bldg Suite 1070",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": "35294-0110"
+  },
+  {
+    "ID": 3,
+    "UNITID": 100690,
+    "INSTNM": "Amridge University",
+    "ADDR": "1200 Taylor Rd",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36117-3553"
+  },
+  {
+    "ID": 4,
+    "UNITID": 100706,
+    "INSTNM": "University of Alabama in Huntsville",
+    "ADDR": "301 Sparkman Dr",
+    "CITY": "Huntsville",
+    "STABBR": "AL",
+    "ZIP": 35899
+  },
+  {
+    "ID": 5,
+    "UNITID": 100724,
+    "INSTNM": "Alabama State University",
+    "ADDR": "915 S Jackson Street",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36104-0271"
+  },
+  {
+    "ID": 6,
+    "UNITID": 100733,
+    "INSTNM": "University of Alabama System Office",
+    "ADDR": "401 Queen City Ave",
+    "CITY": "Tuscaloosa",
+    "STABBR": "AL",
+    "ZIP": 35401
+  },
+  {
+    "ID": 7,
+    "UNITID": 100751,
+    "INSTNM": "The University of Alabama",
+    "ADDR": "739 University Blvd",
+    "CITY": "Tuscaloosa",
+    "STABBR": "AL",
+    "ZIP": "35487-0166"
+  },
+  {
+    "ID": 8,
+    "UNITID": 100760,
+    "INSTNM": "Central Alabama Community College",
+    "ADDR": "1675 Cherokee Rd",
+    "CITY": "Alexander City",
+    "STABBR": "AL",
+    "ZIP": 35010
+  },
+  {
+    "ID": 9,
+    "UNITID": 100812,
+    "INSTNM": "Athens State University",
+    "ADDR": "300 N Beaty St",
+    "CITY": "Athens",
+    "STABBR": "AL",
+    "ZIP": 35611
+  },
+  {
+    "ID": 10,
+    "UNITID": 100830,
+    "INSTNM": "Auburn University at Montgomery",
+    "ADDR": "7440 East Drive",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36117-3596"
+  },
+  {
+    "ID": 11,
+    "UNITID": 100858,
+    "INSTNM": "Auburn University",
+    "ADDR": "Auburn, Alabama",
+    "CITY": "Auburn University",
+    "STABBR": "AL",
+    "ZIP": 36849
+  },
+  {
+    "ID": 12,
+    "UNITID": 100937,
+    "INSTNM": "Birmingham Southern College",
+    "ADDR": "900 Arkadelphia Road",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": 35254
+  },
+  {
+    "ID": 13,
+    "UNITID": 101028,
+    "INSTNM": "Chattahoochee Valley Community College",
+    "ADDR": "2602 College Drive",
+    "CITY": "Phenix City",
+    "STABBR": "AL",
+    "ZIP": 36869
+  },
+  {
+    "ID": 14,
+    "UNITID": 101073,
+    "INSTNM": "Concordia College Alabama",
+    "ADDR": "1712 Broad Street",
+    "CITY": "Selma",
+    "STABBR": "AL",
+    "ZIP": 36701
+  },
+  {
+    "ID": 15,
+    "UNITID": 101116,
+    "INSTNM": "South University-Montgomery",
+    "ADDR": "5355 Vaughn Rd",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": 36116
+  },
+  {
+    "ID": 16,
+    "UNITID": 101143,
+    "INSTNM": "Enterprise State Community College",
+    "ADDR": "600 Plaza Drive",
+    "CITY": "Enterprise",
+    "STABBR": "AL",
+    "ZIP": "36330-1300"
+  },
+  {
+    "ID": 17,
+    "UNITID": 101161,
+    "INSTNM": "James H Faulkner State Community College",
+    "ADDR": "1900 US Hwy 31 S",
+    "CITY": "Bay Minette",
+    "STABBR": "AL",
+    "ZIP": "36507-2698"
+  },
+  {
+    "ID": 18,
+    "UNITID": 101189,
+    "INSTNM": "Faulkner University",
+    "ADDR": "5345 Atlanta Hwy",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36109-3378"
+  },
+  {
+    "ID": 19,
+    "UNITID": 101240,
+    "INSTNM": "Gadsden State Community College",
+    "ADDR": "1001 George Wallace Dr",
+    "CITY": "Gadsden",
+    "STABBR": "AL",
+    "ZIP": 35903
+  },
+  {
+    "ID": 20,
+    "UNITID": 101277,
+    "INSTNM": "New Beginning College of Cosmetology",
+    "ADDR": "421 Martling Road",
+    "CITY": "Albertville",
+    "STABBR": "AL",
+    "ZIP": 35951
+  },
+  {
+    "ID": 21,
+    "UNITID": 101286,
+    "INSTNM": "George C Wallace State Community College-Dothan",
+    "ADDR": "1141 Wallace Drive",
+    "CITY": "Dothan",
+    "STABBR": "AL",
+    "ZIP": "36303-9234"
+  },
+  {
+    "ID": 22,
+    "UNITID": 101295,
+    "INSTNM": "George C Wallace State Community College-Hanceville",
+    "ADDR": "801 Main St NW",
+    "CITY": "Hanceville",
+    "STABBR": "AL",
+    "ZIP": "35077-2000"
+  },
+  {
+    "ID": 23,
+    "UNITID": 101301,
+    "INSTNM": "George C Wallace State Community College-Selma",
+    "ADDR": "3000 Earl Goodwin Parkway",
+    "CITY": "Selma",
+    "STABBR": "AL",
+    "ZIP": "36703-2808"
+  },
+  {
+    "ID": 24,
+    "UNITID": 101365,
+    "INSTNM": "Herzing University-Birmingham",
+    "ADDR": "280 West Valley Ave",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": 35209
+  },
+  {
+    "ID": 25,
+    "UNITID": 101435,
+    "INSTNM": "Huntingdon College",
+    "ADDR": "1500 East Fairview Avenue",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36106-2148"
+  },
+  {
+    "ID": 26,
+    "UNITID": 101453,
+    "INSTNM": "Heritage Christian University",
+    "ADDR": "3625 Helton Dr",
+    "CITY": "Florence",
+    "STABBR": "AL",
+    "ZIP": "35630-9977"
+  },
+  {
+    "ID": 27,
+    "UNITID": 101462,
+    "INSTNM": "J F Drake State Community and Technical College",
+    "ADDR": "3421 Meridian St N",
+    "CITY": "Huntsville",
+    "STABBR": "AL",
+    "ZIP": 35811
+  },
+  {
+    "ID": 28,
+    "UNITID": 101471,
+    "INSTNM": "J F Ingram State Technical College",
+    "ADDR": "5375 Ingram Rd",
+    "CITY": "Deatsville",
+    "STABBR": "AL",
+    "ZIP": 36022
+  },
+  {
+    "ID": 29,
+    "UNITID": 101480,
+    "INSTNM": "Jacksonville State University",
+    "ADDR": "700 Pelham Road North",
+    "CITY": "Jacksonville",
+    "STABBR": "AL",
+    "ZIP": 36265
+  },
+  {
+    "ID": 30,
+    "UNITID": 101499,
+    "INSTNM": "Jefferson Davis Community College",
+    "ADDR": "220 Alco Dr",
+    "CITY": "Brewton",
+    "STABBR": "AL",
+    "ZIP": 36426
+  },
+  {
+    "ID": 31,
+    "UNITID": 101505,
+    "INSTNM": "Jefferson State Community College",
+    "ADDR": "2601 Carson Rd",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": "35215-3098"
+  },
+  {
+    "ID": 32,
+    "UNITID": 101514,
+    "INSTNM": "John C Calhoun State Community College",
+    "ADDR": "6250 U S Highway 31 N",
+    "CITY": "Tanner",
+    "STABBR": "AL",
+    "ZIP": 35671
+  },
+  {
+    "ID": 33,
+    "UNITID": 101541,
+    "INSTNM": "Judson College",
+    "ADDR": "302 Bibb St",
+    "CITY": "Marion",
+    "STABBR": "AL",
+    "ZIP": 36756
+  },
+  {
+    "ID": 34,
+    "UNITID": 101569,
+    "INSTNM": "Lawson State Community College-Birmingham Campus",
+    "ADDR": "3060 Wilson Rd SW",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": "35221-1717"
+  },
+  {
+    "ID": 35,
+    "UNITID": 101587,
+    "INSTNM": "University of West Alabama",
+    "ADDR": "Station One",
+    "CITY": "Livingston",
+    "STABBR": "AL",
+    "ZIP": 35470
+  },
+  {
+    "ID": 36,
+    "UNITID": 101602,
+    "INSTNM": "Lurleen B Wallace Community College",
+    "ADDR": "1000 Dannelly Blvd.",
+    "CITY": "Andalusia",
+    "STABBR": "AL",
+    "ZIP": "36420-1418"
+  },
+  {
+    "ID": 37,
+    "UNITID": 101648,
+    "INSTNM": "Marion Military Institute",
+    "ADDR": "1101 Washington St",
+    "CITY": "Marion",
+    "STABBR": "AL",
+    "ZIP": "36756-3207"
+  },
+  {
+    "ID": 38,
+    "UNITID": 101675,
+    "INSTNM": "Miles College",
+    "ADDR": "5500 Myron Massey Blvd",
+    "CITY": "Fairfield",
+    "STABBR": "AL",
+    "ZIP": "35064-2621"
+  },
+  {
+    "ID": 39,
+    "UNITID": 101693,
+    "INSTNM": "University of Mobile",
+    "ADDR": "5735 College Parkway Drive",
+    "CITY": "Mobile",
+    "STABBR": "AL",
+    "ZIP": "36613-2842"
+  },
+  {
+    "ID": 40,
+    "UNITID": 101709,
+    "INSTNM": "University of Montevallo",
+    "ADDR": "Station 6001",
+    "CITY": "Montevallo",
+    "STABBR": "AL",
+    "ZIP": "35115-6000"
+  },
+  {
+    "ID": 41,
+    "UNITID": 101736,
+    "INSTNM": "Northwest-Shoals Community College",
+    "ADDR": "800 George Wallace Blvd",
+    "CITY": "Muscle Shoals",
+    "STABBR": "AL",
+    "ZIP": 35661
+  },
+  {
+    "ID": 42,
+    "UNITID": 101879,
+    "INSTNM": "University of North Alabama",
+    "ADDR": "One Harrison Plaza",
+    "CITY": "Florence",
+    "STABBR": "AL",
+    "ZIP": "35632-0001"
+  },
+  {
+    "ID": 43,
+    "UNITID": 101897,
+    "INSTNM": "Northeast Alabama Community College",
+    "ADDR": "138  Highway 35",
+    "CITY": "Rainsville",
+    "STABBR": "AL",
+    "ZIP": 35986
+  },
+  {
+    "ID": 44,
+    "UNITID": 101912,
+    "INSTNM": "Oakwood University",
+    "ADDR": "7000 Adventist Blvd NW",
+    "CITY": "Huntsville",
+    "STABBR": "AL",
+    "ZIP": 35896
+  },
+  {
+    "ID": 45,
+    "UNITID": 101949,
+    "INSTNM": "Alabama Southern Community College",
+    "ADDR": "2800 South Alabama Avenue",
+    "CITY": "Monroeville",
+    "STABBR": "AL",
+    "ZIP": 36460
+  },
+  {
+    "ID": 46,
+    "UNITID": 101958,
+    "INSTNM": "Prince Institute-Southeast",
+    "ADDR": "7735 Atlanta Hwy",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": 36117
+  },
+  {
+    "ID": 47,
+    "UNITID": 101994,
+    "INSTNM": "Reid State Technical College",
+    "ADDR": "I65 and Hwy 83",
+    "CITY": "Evergreen",
+    "STABBR": "AL",
+    "ZIP": 36401
+  },
+  {
+    "ID": 48,
+    "UNITID": 102030,
+    "INSTNM": "Bishop State Community College",
+    "ADDR": "351 North Broad Street",
+    "CITY": "Mobile",
+    "STABBR": "AL",
+    "ZIP": "36603-5898"
+  },
+  {
+    "ID": 49,
+    "UNITID": 102049,
+    "INSTNM": "Samford University",
+    "ADDR": "800 Lakeshore Drive",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": "35229-2240"
+  },
+  {
+    "ID": 50,
+    "UNITID": 102058,
+    "INSTNM": "Selma University",
+    "ADDR": "1501 Lapsley St, Dinkins Hall",
+    "CITY": "Selma",
+    "STABBR": "AL",
+    "ZIP": 36701
+  },
+  {
+    "ID": 51,
+    "UNITID": 102067,
+    "INSTNM": "Shelton State Community College",
+    "ADDR": "9500 Old Greensboro Rd",
+    "CITY": "Tuscaloosa",
+    "STABBR": "AL",
+    "ZIP": "35405-8522"
+  },
+  {
+    "ID": 52,
+    "UNITID": 102076,
+    "INSTNM": "Snead State Community College",
+    "ADDR": "102 Elder Street",
+    "CITY": "Boaz",
+    "STABBR": "AL",
+    "ZIP": "35957-0734"
+  },
+  {
+    "ID": 53,
+    "UNITID": 102094,
+    "INSTNM": "University of South Alabama",
+    "ADDR": "307 N University Blvd",
+    "CITY": "Mobile",
+    "STABBR": "AL",
+    "ZIP": "36688-0002"
+  },
+  {
+    "ID": 54,
+    "UNITID": 102234,
+    "INSTNM": "Spring Hill College",
+    "ADDR": "4000 Dauphin St",
+    "CITY": "Mobile",
+    "STABBR": "AL",
+    "ZIP": "36608-1791"
+  },
+  {
+    "ID": 55,
+    "UNITID": 102261,
+    "INSTNM": "Southeastern Bible College",
+    "ADDR": "2545 Valleydale Road",
+    "CITY": "Birmingham",
+    "STABBR": "AL",
+    "ZIP": "35224-2083"
+  },
+  {
+    "ID": 56,
+    "UNITID": 102270,
+    "INSTNM": "Stillman College",
+    "ADDR": "3601 Stillman Boulevard",
+    "CITY": "Tuscaloosa",
+    "STABBR": "AL",
+    "ZIP": 35403
+  },
+  {
+    "ID": 57,
+    "UNITID": 102298,
+    "INSTNM": "Talladega College",
+    "ADDR": "627 W Battle St",
+    "CITY": "Talladega",
+    "STABBR": "AL",
+    "ZIP": 35160
+  },
+  {
+    "ID": 58,
+    "UNITID": 102313,
+    "INSTNM": "H Councill Trenholm State Technical College",
+    "ADDR": "1225 Air Base Blvd",
+    "CITY": "Montgomery",
+    "STABBR": "AL",
+    "ZIP": "36108-3199"
+  },
+  {
+    "ID": 59,
+    "UNITID": 102368,
+    "INSTNM": "Troy University",
+    "ADDR": "University Avenue",
+    "CITY": "Troy",
+    "STABBR": "AL",
+    "ZIP": "36082-0001"
+  },
+  {
+    "ID": 60,
+    "UNITID": 102377,
+    "INSTNM": "Tuskegee University",
+    "ADDR": "Kresge Center, 3rd Floor",
+    "CITY": "Tuskegee",
+    "STABBR": "AL",
+    "ZIP": "36088-1920"
+  },
+  {
+    "ID": 61,
+    "UNITID": 102395,
+    "INSTNM": "United States Sports Academy",
+    "ADDR": "One Academy Drive",
+    "CITY": "Daphne",
+    "STABBR": "AL",
+    "ZIP": "36526-7055"
+  },
+  {
+    "ID": 62,
+    "UNITID": 102429,
+    "INSTNM": "Bevill State Community College",
+    "ADDR": "1411 Indiana Avenue",
+    "CITY": "Jasper",
+    "STABBR": "AL",
+    "ZIP": 35501
+  },
+  {
+    "ID": 63,
+    "UNITID": 102553,
+    "INSTNM": "University of Alaska Anchorage",
+    "ADDR": "3211 Providence Drive",
+    "CITY": "Anchorage",
+    "STABBR": "AK",
+    "ZIP": 99508
+  },
+  {
+    "ID": 64,
+    "UNITID": 102580,
+    "INSTNM": "Alaska Bible College",
+    "ADDR": "248 E Elmwood",
+    "CITY": "Palmer",
+    "STABBR": "AK",
+    "ZIP": 99645
+  },
+  {
+    "ID": 65,
+    "UNITID": 102614,
+    "INSTNM": "University of Alaska Fairbanks",
+    "ADDR": "505 South Chandalar Drive",
+    "CITY": "Fairbanks",
+    "STABBR": "AK",
+    "ZIP": "99775-7500"
+  },
+  {
+    "ID": 66,
+    "UNITID": 102632,
+    "INSTNM": "University of Alaska Southeast",
+    "ADDR": "11120 Glacier Highway",
+    "CITY": "Juneau",
+    "STABBR": "AK",
+    "ZIP": "99801-8697"
+  },
+  {
+    "ID": 67,
+    "UNITID": 102669,
+    "INSTNM": "Alaska Pacific University",
+    "ADDR": "4101 University Dr",
+    "CITY": "Anchorage",
+    "STABBR": "AK",
+    "ZIP": 99508
+  },
+  {
+    "ID": 68,
+    "UNITID": 102711,
+    "INSTNM": "AVTEC-Alaska's Institute of Technology",
+    "ADDR": "809 Second Avenue",
+    "CITY": "Seward",
+    "STABBR": "AK",
+    "ZIP": "99664-0889"
+  },
+  {
+    "ID": 69,
+    "UNITID": 102845,
+    "INSTNM": "Charter College-Anchorage",
+    "ADDR": "2221 E Northern Lights Blvd Ste 120",
+    "CITY": "Anchorage",
+    "STABBR": "AK",
+    "ZIP": 99508
+  },
+  {
+    "ID": 70,
+    "UNITID": 103361,
+    "INSTNM": "Prince William Sound Community College",
+    "ADDR": "303 Lowe Street",
+    "CITY": "Valdez",
+    "STABBR": "AK",
+    "ZIP": "99686-0097"
+  },
+  {
+    "ID": 71,
+    "UNITID": 103501,
+    "INSTNM": "Alaska Career College",
+    "ADDR": "1415 E Tudor Road",
+    "CITY": "Anchorage",
+    "STABBR": "AK",
+    "ZIP": "99507-1033"
+  },
+  {
+    "ID": 72,
+    "UNITID": 103529,
+    "INSTNM": "University of Alaska System of Higher Education",
+    "ADDR": "910 Yukon Drive, Suite 202 Butrovich Building",
+    "CITY": "Fairbanks",
+    "STABBR": "AK",
+    "ZIP": "99775-5000"
+  },
+  {
+    "ID": 73,
+    "UNITID": 103644,
+    "INSTNM": "Everest College-Phoenix",
+    "ADDR": "10400 N. 25th Avenue, Suite 190",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85021-1641"
+  },
+  {
+    "ID": 74,
+    "UNITID": 103723,
+    "INSTNM": "Collins College",
+    "ADDR": "4750 S 44th Place",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85040
+  },
+  {
+    "ID": 75,
+    "UNITID": 103732,
+    "INSTNM": "Empire Beauty School-Paradise Valley",
+    "ADDR": "12827 N Tatum Blvd",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85032
+  },
+  {
+    "ID": 76,
+    "UNITID": 103741,
+    "INSTNM": "Empire Beauty School-Tucson",
+    "ADDR": "3030 E Speedway Blvd",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85716
+  },
+  {
+    "ID": 77,
+    "UNITID": 103778,
+    "INSTNM": "Thunderbird School of Global Management",
+    "ADDR": "1 Global Place",
+    "CITY": "Glendale",
+    "STABBR": "AZ",
+    "ZIP": "85306-6000"
+  },
+  {
+    "ID": 78,
+    "UNITID": 103787,
+    "INSTNM": "American Indian College of the Assemblies of God Inc",
+    "ADDR": "10020 N 15th Ave",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85021
+  },
+  {
+    "ID": 79,
+    "UNITID": 103811,
+    "INSTNM": "American Institute of Technology",
+    "ADDR": "440 S 54th Avenue",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85043-4729"
+  },
+  {
+    "ID": 80,
+    "UNITID": 103893,
+    "INSTNM": "Carrington College-Phoenix",
+    "ADDR": "8503 N 27th Ave.",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85051-4063"
+  },
+  {
+    "ID": 81,
+    "UNITID": 103909,
+    "INSTNM": "Carrington College-Mesa",
+    "ADDR": "1001 Southern Ave., Ste. 130",
+    "CITY": "Mesa",
+    "STABBR": "AZ",
+    "ZIP": 85210
+  },
+  {
+    "ID": 82,
+    "UNITID": 103927,
+    "INSTNM": "Carrington College-Tucson",
+    "ADDR": "3550 N Oracle Rd.",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": "85705-5885"
+  },
+  {
+    "ID": 83,
+    "UNITID": 103945,
+    "INSTNM": "College America-Flagstaff",
+    "ADDR": "3012 East Route 66",
+    "CITY": "Flagstaff",
+    "STABBR": "AZ",
+    "ZIP": 86004
+  },
+  {
+    "ID": 84,
+    "UNITID": 103954,
+    "INSTNM": "Arizona Academy of Beauty-East",
+    "ADDR": "5631 E Speedway Blvd",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85712
+  },
+  {
+    "ID": 85,
+    "UNITID": 103963,
+    "INSTNM": "Arizona Automotive Institute",
+    "ADDR": "6829 N 46th Ave",
+    "CITY": "Glendale",
+    "STABBR": "AZ",
+    "ZIP": "85301-3579"
+  },
+  {
+    "ID": 86,
+    "UNITID": 104090,
+    "INSTNM": "Brookline College-Phoenix",
+    "ADDR": "2445 W. Dunlap Ave., Ste. 100",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85021
+  },
+  {
+    "ID": 87,
+    "UNITID": 104151,
+    "INSTNM": "Arizona State University-Tempe",
+    "ADDR": "University Drive and Mill Avenue",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": 85287
+  },
+  {
+    "ID": 88,
+    "UNITID": 104160,
+    "INSTNM": "Arizona Western College",
+    "ADDR": "2020 S. Avenue 8E",
+    "CITY": "Yuma",
+    "STABBR": "AZ",
+    "ZIP": "85365-8834"
+  },
+  {
+    "ID": 89,
+    "UNITID": 104179,
+    "INSTNM": "University of Arizona",
+    "ADDR": "1401 E University",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": "85721-0066"
+  },
+  {
+    "ID": 90,
+    "UNITID": 104188,
+    "INSTNM": "Southwest University of Visual Arts-Tucson",
+    "ADDR": "2525 N Country Club Rd",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85716
+  },
+  {
+    "ID": 91,
+    "UNITID": 104294,
+    "INSTNM": "Brillare Hairdressing Academy",
+    "ADDR": "15147 N. Scottsdale Road, Suite H-300",
+    "CITY": "Scottsdale",
+    "STABBR": "AZ",
+    "ZIP": 85254
+  },
+  {
+    "ID": 92,
+    "UNITID": 104346,
+    "INSTNM": "Central Arizona College",
+    "ADDR": "8470 N Overfield Rd",
+    "CITY": "Coolidge",
+    "STABBR": "AZ",
+    "ZIP": "85128-9030"
+  },
+  {
+    "ID": 93,
+    "UNITID": 104364,
+    "INSTNM": "Brown Mackie College-Tucson",
+    "ADDR": "4585 E Speedway Blvd.",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85712
+  },
+  {
+    "ID": 94,
+    "UNITID": 104391,
+    "INSTNM": "Charles of Italy Beauty College",
+    "ADDR": "1987 McCulloch Blvd, Suite 205",
+    "CITY": "Lake Havasu City",
+    "STABBR": "AZ",
+    "ZIP": 86403
+  },
+  {
+    "ID": 95,
+    "UNITID": 104425,
+    "INSTNM": "Cochise College",
+    "ADDR": "4190 W Highway 80",
+    "CITY": "Douglas",
+    "STABBR": "AZ",
+    "ZIP": "85607-6190"
+  },
+  {
+    "ID": 96,
+    "UNITID": 104434,
+    "INSTNM": "Empire Beauty School-Flagstaff",
+    "ADDR": "1790 E Rte 66",
+    "CITY": "Flagstaff",
+    "STABBR": "AZ",
+    "ZIP": 86004
+  },
+  {
+    "ID": 97,
+    "UNITID": 104443,
+    "INSTNM": "Empire Beauty School-Chandler",
+    "ADDR": "2978 N Alma School Rd #1-3",
+    "CITY": "Chandler",
+    "STABBR": "AZ",
+    "ZIP": 85224
+  },
+  {
+    "ID": 98,
+    "UNITID": 104504,
+    "INSTNM": "Cortiva Institute-Tucson",
+    "ADDR": "6390 E. Broadway, Suite 100",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85710
+  },
+  {
+    "ID": 99,
+    "UNITID": 104531,
+    "INSTNM": "DeVry University-Arizona",
+    "ADDR": "2149 W Dunlap Ave",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85021-2995"
+  },
+  {
+    "ID": 100,
+    "UNITID": 104568,
+    "INSTNM": "Avalon School of Cosmetology-Mesa",
+    "ADDR": "2111 S Alma School Rd Ste 21",
+    "CITY": "Mesa",
+    "STABBR": "AZ",
+    "ZIP": 85210
+  },
+  {
+    "ID": 101,
+    "UNITID": 104577,
+    "INSTNM": "Eastern Arizona College",
+    "ADDR": "615 N. Stadium Ave.",
+    "CITY": "Thatcher",
+    "STABBR": "AZ",
+    "ZIP": "85552-0769"
+  },
+  {
+    "ID": 102,
+    "UNITID": 104586,
+    "INSTNM": "Embry-Riddle Aeronautical University-Prescott",
+    "ADDR": "3700 Willow Creek Road",
+    "CITY": "Prescott",
+    "STABBR": "AZ",
+    "ZIP": "86301-3720"
+  },
+  {
+    "ID": 103,
+    "UNITID": 104665,
+    "INSTNM": "Frank Lloyd Wright School of Architecture",
+    "ADDR": "Taliesin West",
+    "CITY": "Scottsdale",
+    "STABBR": "AZ",
+    "ZIP": "85261-4430"
+  },
+  {
+    "ID": 104,
+    "UNITID": 104708,
+    "INSTNM": "Glendale Community College",
+    "ADDR": "6000 W Olive Ave",
+    "CITY": "Glendale",
+    "STABBR": "AZ",
+    "ZIP": 85302
+  },
+  {
+    "ID": 105,
+    "UNITID": 104717,
+    "INSTNM": "Grand Canyon University",
+    "ADDR": "3300 W Camelback Rd",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85017
+  },
+  {
+    "ID": 106,
+    "UNITID": 104805,
+    "INSTNM": "Anthem College-Phoenix",
+    "ADDR": "1515 E Indian School Road",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85014
+  },
+  {
+    "ID": 107,
+    "UNITID": 104911,
+    "INSTNM": "International Academy of Hair Design",
+    "ADDR": "1445 W Southern Ave #2006",
+    "CITY": "Mesa",
+    "STABBR": "AZ",
+    "ZIP": "85202-4887"
+  },
+  {
+    "ID": 108,
+    "UNITID": 105118,
+    "INSTNM": "Kaplan College-Phoenix",
+    "ADDR": "13610 N Black Canyon Hwy,  Ste 104",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85029
+  },
+  {
+    "ID": 109,
+    "UNITID": 105136,
+    "INSTNM": "Maricopa Community College System Office",
+    "ADDR": "2411 W 14th St",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": "85281-6942"
+  },
+  {
+    "ID": 110,
+    "UNITID": 105145,
+    "INSTNM": "GateWay Community College",
+    "ADDR": "108 N. 40th Street",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85034
+  },
+  {
+    "ID": 111,
+    "UNITID": 105154,
+    "INSTNM": "Mesa Community College",
+    "ADDR": "1833 W Southern Ave",
+    "CITY": "Mesa",
+    "STABBR": "AZ",
+    "ZIP": 85202
+  },
+  {
+    "ID": 112,
+    "UNITID": 105163,
+    "INSTNM": "ITT Technical Institute-Tucson",
+    "ADDR": "1455 W. River Rd",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": "85704-5829"
+  },
+  {
+    "ID": 113,
+    "UNITID": 105172,
+    "INSTNM": "ITT Technical Institute-Tempe",
+    "ADDR": "5005 S. Wendler Drive",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": 85282
+  },
+  {
+    "ID": 114,
+    "UNITID": 105206,
+    "INSTNM": "Mohave Community College",
+    "ADDR": "1971 Jagerson Ave",
+    "CITY": "Kingman",
+    "STABBR": "AZ",
+    "ZIP": "86409-1238"
+  },
+  {
+    "ID": 115,
+    "UNITID": 105215,
+    "INSTNM": "Universal Technical Institute of Arizona Inc-Motorcycle Mechanics Institute Division",
+    "ADDR": "2844 W Deer Valley Rd",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85027
+  },
+  {
+    "ID": 116,
+    "UNITID": 105297,
+    "INSTNM": "Dine College",
+    "ADDR": "Route 12, One Circle Drive",
+    "CITY": "Tsaile",
+    "STABBR": "AZ",
+    "ZIP": 86556
+  },
+  {
+    "ID": 117,
+    "UNITID": 105330,
+    "INSTNM": "Northern Arizona University",
+    "ADDR": "1900 S. Knoles Dr, Babbitt Administrative Center",
+    "CITY": "Flagstaff",
+    "STABBR": "AZ",
+    "ZIP": "86011-4132"
+  },
+  {
+    "ID": 118,
+    "UNITID": 105349,
+    "INSTNM": "Northland Pioneer College",
+    "ADDR": "2251 E. Navajo Blvd.",
+    "CITY": "Holbrook",
+    "STABBR": "AZ",
+    "ZIP": "86025-0610"
+  },
+  {
+    "ID": 119,
+    "UNITID": 105367,
+    "INSTNM": "Ottawa University-Phoenix",
+    "ADDR": "10020 North 25th Avenue",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85021
+  },
+  {
+    "ID": 120,
+    "UNITID": 105428,
+    "INSTNM": "Phoenix College",
+    "ADDR": "1202 W Thomas Rd",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85013
+  },
+  {
+    "ID": 121,
+    "UNITID": 105482,
+    "INSTNM": "Cortiva Institute-Scottsdale",
+    "ADDR": "8010 East McDowell Road #214",
+    "CITY": "Scottsdale",
+    "STABBR": "AZ",
+    "ZIP": 85257
+  },
+  {
+    "ID": 122,
+    "UNITID": 105516,
+    "INSTNM": "University of Phoenix-Phoenix Campus",
+    "ADDR": "1625 West Fountainhead Parkway",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": "85282-2371"
+  },
+  {
+    "ID": 123,
+    "UNITID": 105525,
+    "INSTNM": "Pima Community College",
+    "ADDR": "4905C East  Broadway Blvd.",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": "85709-1275"
+  },
+  {
+    "ID": 124,
+    "UNITID": 105534,
+    "INSTNM": "Pima Medical Institute-Tucson",
+    "ADDR": "3350 East Grant Road, Suite 200",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85716
+  },
+  {
+    "ID": 125,
+    "UNITID": 105543,
+    "INSTNM": "Pima Medical Institute-Albuquerque",
+    "ADDR": "4400 Cutler Avenue NE",
+    "CITY": "Albuquerque",
+    "STABBR": "NM",
+    "ZIP": 87110
+  },
+  {
+    "ID": 126,
+    "UNITID": 105589,
+    "INSTNM": "Prescott College",
+    "ADDR": "220 Grove Ave",
+    "CITY": "Prescott",
+    "STABBR": "AZ",
+    "ZIP": 86301
+  },
+  {
+    "ID": 127,
+    "UNITID": 105659,
+    "INSTNM": "Refrigeration School Inc",
+    "ADDR": "4210 E Washington Street",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85034-1816"
+  },
+  {
+    "ID": 128,
+    "UNITID": 105668,
+    "INSTNM": "Rio Salado College",
+    "ADDR": "2323 W 14th St",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": 85281
+  },
+  {
+    "ID": 129,
+    "UNITID": 105677,
+    "INSTNM": "Roberto-Venn School of Luthiery",
+    "ADDR": "1012 NW Grand Ave",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85007
+  },
+  {
+    "ID": 130,
+    "UNITID": 105701,
+    "INSTNM": "Hair Academy of Safford",
+    "ADDR": "1550 West Thatcher Blvd",
+    "CITY": "Safford",
+    "STABBR": "AZ",
+    "ZIP": 85546
+  },
+  {
+    "ID": 131,
+    "UNITID": 105747,
+    "INSTNM": "Scottsdale Community College",
+    "ADDR": "9000 E Chaparral Rd",
+    "CITY": "Scottsdale",
+    "STABBR": "AZ",
+    "ZIP": 85256
+  },
+  {
+    "ID": 132,
+    "UNITID": 105792,
+    "INSTNM": "South Mountain Community College",
+    "ADDR": "7050 S 24th St",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": 85042
+  },
+  {
+    "ID": 133,
+    "UNITID": 105899,
+    "INSTNM": "Arizona Christian University",
+    "ADDR": "2625 E Cactus Rd",
+    "CITY": "Phoenix",
+    "STABBR": "AZ",
+    "ZIP": "85032-7097"
+  },
+  {
+    "ID": 134,
+    "UNITID": 105987,
+    "INSTNM": "Tucson College",
+    "ADDR": "5151 E Broadway Blvd, Ste.155",
+    "CITY": "Tucson",
+    "STABBR": "AZ",
+    "ZIP": 85711
+  },
+  {
+    "ID": 135,
+    "UNITID": 106041,
+    "INSTNM": "Universal Technical Institute of Arizona Inc",
+    "ADDR": "10695 West Pierce Street",
+    "CITY": "Avondale",
+    "STABBR": "AZ",
+    "ZIP": 85323
+  },
+  {
+    "ID": 136,
+    "UNITID": 106102,
+    "INSTNM": "Western International University",
+    "ADDR": "1601 W Fountainhead Parkway",
+    "CITY": "Tempe",
+    "STABBR": "AZ",
+    "ZIP": 85282
+  },
+  {
+    "ID": 137,
+    "UNITID": 106111,
+    "INSTNM": "Empire Beauty School-NW Phoenix",
+    "ADDR": "2727 W. Glendale Ave. #200",
+    "CITY": "Glendale",
+    "STABBR": "AZ",
+    "ZIP": 85051
+  },
+  {
+    "ID": 138,
+    "UNITID": 106148,
+    "INSTNM": "Yavapai College",
+    "ADDR": "1100 E Sheldon St",
+    "CITY": "Prescott",
+    "STABBR": "AZ",
+    "ZIP": 86301
+  },
+  {
+    "ID": 139,
+    "UNITID": 106245,
+    "INSTNM": "University of Arkansas at Little Rock",
+    "ADDR": "2801 S University Ave",
+    "CITY": "Little Rock",
+    "STABBR": "AR",
+    "ZIP": 72204
+  },
+  {
+    "ID": 140,
+    "UNITID": 106263,
+    "INSTNM": "University of Arkansas for Medical Sciences",
+    "ADDR": "4301 W Markham",
+    "CITY": "Little Rock",
+    "STABBR": "AR",
+    "ZIP": "72205-7199"
+  },
+  {
+    "ID": 141,
+    "UNITID": 106281,
+    "INSTNM": "ABC Beauty College Inc",
+    "ADDR": "203 S 26th Street",
+    "CITY": "Arkadelphia",
+    "STABBR": "AR",
+    "ZIP": 71923
+  },
+  {
+    "ID": 142,
+    "UNITID": 106306,
+    "INSTNM": "Arkansas Baptist College",
+    "ADDR": "1621 Dr. Martin Luther King Drive",
+    "CITY": "Little Rock",
+    "STABBR": "AR",
+    "ZIP": "72202-6068"
+  },
+  {
+    "ID": 143,
+    "UNITID": 106315,
+    "INSTNM": "Arkansas Beauty School",
+    "ADDR": "5108 Baseline Rd",
+    "CITY": "Little Rock",
+    "STABBR": "AR",
+    "ZIP": 72209
+  },
+  {
+    "ID": 144,
+    "UNITID": 106324,
+    "INSTNM": "Arkansas Beauty College",
+    "ADDR": "109 N Commerce St",
+    "CITY": "Russellville",
+    "STABBR": "AR",
+    "ZIP": 72801
+  },
+  {
+    "ID": 145,
+    "UNITID": 106342,
+    "INSTNM": "Lyon College",
+    "ADDR": "2300 Highland Road",
+    "CITY": "Batesville",
+    "STABBR": "AR",
+    "ZIP": 72501
+  },
+  {
+    "ID": 146,
+    "UNITID": 106351,
+    "INSTNM": "Arkansas College of Barbering and Hair Design",
+    "ADDR": "200 E Washington Ave",
+    "CITY": "North Little Rock",
+    "STABBR": "AR",
+    "ZIP": 72114
+  },
+  {
+    "ID": 147,
+    "UNITID": 106360,
+    "INSTNM": "Arthur's Beauty College Inc-Fort Smith",
+    "ADDR": "2000 North B St",
+    "CITY": "Fort Smith",
+    "STABBR": "AR",
+    "ZIP": "72901-3342"
+  },
+  {
+    "ID": 148,
+    "UNITID": 106397,
+    "INSTNM": "University of Arkansas",
+    "ADDR": "Administration Bldg 425",
+    "CITY": "Fayetteville",
+    "STABBR": "AR",
+    "ZIP": 72701
+  },
+  {
+    "ID": 149,
+    "UNITID": 106412,
+    "INSTNM": "University of Arkansas at Pine Bluff",
+    "ADDR": "1200 N University Mail Slot 4789",
+    "CITY": "Pine Bluff",
+    "STABBR": "AR",
+    "ZIP": 71601
+  }
+]
