@@ -23,8 +23,8 @@ app.get('/getItems', function(req, res) {
 
 
 app.get('/getItems/:id', function(req, res, next) {
-  var instnid = req.params.id;
-  console.log(instnid);
+  var id = req.params.id;
+  console.log(id);
     
     MongoClient.connect('mongodb://heroku_j3qvr3g1:cirufnf212meq8t99kvilagp82@ds057954.mongolab.com:57954/heroku_j3qvr3g1', function(err, database) {
     if(err)
@@ -34,7 +34,7 @@ app.get('/getItems/:id', function(req, res, next) {
 
 myCollection= database.collection('test'); 
 
-myCollection.findOne({ID:instnid},function(err, result){
+myCollection.findOne({ID:id},function(err, result){
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
 var obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
 
