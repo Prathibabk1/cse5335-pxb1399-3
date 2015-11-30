@@ -41,7 +41,7 @@ myCollection.findOne({ID:id},function(err, result){
         console.log(result);
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
 obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
-
+obj=result;
 }); 
 
 });
