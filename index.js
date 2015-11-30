@@ -21,12 +21,29 @@ app.get('/getItems', function(req, res) {
 }); 
 
 
-app.get('/v1/admin/:username', function(request, response, next) {
-  var username = request.params.username;
-  findUserByUsername(username, function(error, user) {
-    if (error) return next(error);
-    return response.render('admin', user);
-  });
+app.get('/getItems/:id', function(req, res, next) {
+  var instnid = req.params.id;
+  console.log(instnid);
+    
+    MongoClient.connect('mongodb://heroku_j3qvr3g1:cirufnf212meq8t99kvilagp82@ds057954.mongolab.com:57954/heroku_j3qvr3g1', function(err, database) {
+    if(err)
+        console.log( err);
+    else
+        console.log("connected to the mongoDB !");
+
+myCollection= database.collection('test'); 
+
+myCollection.findOne({ID:instnid},function(err, result){
+console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
+var obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
+
+}); 
+
+});
+ res.contentType('application/json');
+ res.setHeader("Access-Control-Allow-Origin", "*");   
+ res.json(obj);   
+    
 }); 
 
 
