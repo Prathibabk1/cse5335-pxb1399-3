@@ -21,7 +21,7 @@ app.get('/getItems', function(req, res) {
     res.json(obj);
 }); 
 
-
+var obj;
 app.get('/getItems/:id', function(req, res, next) {
   var id = req.params.id;
   console.log("the id is"+id);
@@ -40,7 +40,7 @@ myCollection.findOne({ID:1},function(err, result){
     else  
         console.log(result);
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
-var obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
+obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
 
 }); 
 
