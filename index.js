@@ -36,7 +36,7 @@ myCollection.findOne({ID:k},function(err, result){
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
 obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
 obj=result;
-console.log(obj+"************8obj************");
+console.log(obj.ID+"************8obj************");
 }); 
 
 });
