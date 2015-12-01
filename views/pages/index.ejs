@@ -14,7 +14,7 @@
     
 var th,tr,td1,td2;
 $(document).ready(function(){
-	   $.get("/getItems/*", function(response, status){
+	   $.get("/getItems/1", function(response, status){
            console.log(response);
            th="<tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>";
            $("#table1").append(th);
