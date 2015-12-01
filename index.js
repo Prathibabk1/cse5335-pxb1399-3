@@ -27,8 +27,8 @@ app.get('/getItems/:id', function(req, res, next) {
         console.log("connected to the mongoDB !");
 
 myCollection= database.collection('test'); 
-
-myCollection.findOne({ID:id},function(err, result){
+var k=parseInt(id);
+myCollection.findOne({ID:k},function(err, result){
   if(err)
         console.log( err);
     else  
