@@ -14,20 +14,24 @@
     
 var th,tr,td1,td2;
 $(document).ready(function(){
-	   $.get("/getItems/1", function(obj, status){
-           console.log(obj);
-         th="<tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>";
+	   $.get("/getItems/1", function(response, status){
+           console.log(response);
+           th="<tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>";
            $("#table1").append(th);
-    for(var i=0;i<obj.length;i++)
-    {
-         tr="<tr>";
-         td1="<td>"+ob.ID+"</td>";
-        td2="<td>"+obj.INSTNM+"</td></tr>";
+           var obj = jQuery.parseJSON(response);
+        $.each(obj, function(key,value) {
+            
+            tr="<tr>";
+         td1="<td>"+value.ID+"</td>";
+        td2="<td>"+value.INSTNM+"</td></tr>";
         
 
-       $("#table1").append(tr+td1+td2);   
-
-    }   
+       $("#table1").append(tr+td1+td2);
+            
+            }); 
+           
+           
+         
     
        });
 });
