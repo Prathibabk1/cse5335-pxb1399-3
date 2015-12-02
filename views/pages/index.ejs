@@ -55,6 +55,7 @@ function funcCall(){
           $("#table1").append(tr+td1+td2+td3+td4+td5); 
          var rowCount = $('#table1 tr').length; 
         console.log(rowCount);
+        $('#table1').fadeOut(200);
         if(rowCount>19)
         {
             removeFirstRowAndAppendNewItem(data)
