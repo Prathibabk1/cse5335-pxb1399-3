@@ -15,8 +15,9 @@ app.get('/', function(request, response) {
 });
  
 
-var obj;
+
 app.get('/getItems/:id', function(req, res, next) {
+    var obj;
   var id = req.params.id;
   console.log("the id is"+id);
     
@@ -34,14 +35,13 @@ myCollection.findOne({ID:k},function(err, result){
     else  
         console.log(result);
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
-obj=result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP;
-obj=result;
-console.log(obj.ID+"************8obj************");
+
+
 }); 
 
 });
    
- res.send(obj);   
+ res.send(result);   
     
 }); 
 
