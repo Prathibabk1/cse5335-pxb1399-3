@@ -35,7 +35,7 @@ var func=setInterval(funcCall,500);
     
 function funcCall(){  
    var counter=localStorage.getItem('p'); 
-    console.log(counter);
+    
     var count=parseInt(counter);
       
  if(count == 148) {
@@ -44,7 +44,7 @@ function funcCall(){
      } 
 
 	   $.get("/getItems/"+count, function(data){
-           console.log(data);
+           
           
          tr="<tr>";
          td1="<td>"+data["ID"]+"</td>";
@@ -54,6 +54,7 @@ function funcCall(){
         td5="<td>"+data["CITY"]+"</td></tr>";
           $("#table1").append(tr+td1+td2+td3+td4+td5); 
         var x = document.getElementById("#table1").rows.length; 
+        console.log(x);
         if(x>19)
         {
             removeFirstRowAndAppendNewItem(data)
@@ -63,7 +64,7 @@ function funcCall(){
         function removeFirstRowAndAppendNewItem(data)
         {
           console.log("in callback"); // to confirm we have reached here
-        $('#table1 tr:first').fadeOut(2000, function() {
+        $('#table1 tr:first').fadeOut(20, function() {
                $('#table1 tr:first').remove();
                
                
