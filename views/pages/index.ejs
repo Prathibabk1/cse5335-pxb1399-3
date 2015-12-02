@@ -13,14 +13,25 @@
 <script type="text/javascript">
     
 var th,tr,td1,td2;
+
+    
+localStorage.setItem("p",'1')
+    
+var func=setInterval(funcCall,500);
+    
+    
+    
+    
+function funcCall(){  
+   var counter=localStorage.getItem('p'); 
 $(document).ready(function(){
-	   $.get("/getItems/1", function(response, status){
+	   $.get("/getItems/"+counter, function(response, status){
            console.log(response);
            th="<tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>";
            $("#table1").append(th);
            var obj = jQuery.parseJSON(response);
         $.each(obj, function(key,value) {
-            
+           console.log(value.ID); 
             tr="<tr>";
          td1="<td>"+value.ID+"</td>";
         td2="<td>"+value.INSTNM+"</td></tr>";
@@ -35,6 +46,12 @@ $(document).ready(function(){
     
        });
 });
+    
+    counter=parseInt(counter);
+    counter+=1;
+    localstorage.setItem('p',counter);
+    
+}
 
 </script>
 
