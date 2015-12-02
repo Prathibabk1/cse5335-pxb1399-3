@@ -53,9 +53,9 @@ function funcCall(){
         td4="<td>"+data["ADDR"]+"</td>";
         td5="<td>"+data["CITY"]+"</td></tr>";
           $("#table1").append(tr+td1+td2+td3+td4+td5); 
-        var x = document.getElementById("#table1").rows.length; 
-        console.log(x);
-        if(x>19)
+         var rowCount = $('#table1 tr').length; 
+        console.log(rowCount);
+        if(rowCount>19)
         {
             removeFirstRowAndAppendNewItem(data)
           
