@@ -42,8 +42,8 @@ function funcCall(){
           clearInterval(func);
      } 
 $(document).ready(function(){
-	   $.get("/getItems/"+count, function(obj, status){
-           console.log(obj);
+	   $.get("/getItems/"+count, function(data){
+           console.log(data);
            
            for(var i=0;i<obj.length;i++)
     {
