@@ -32,11 +32,15 @@ var func=setInterval(funcCall,500);
     
     
     
-    
 function funcCall(){  
    var counter=localStorage.getItem('p'); 
     console.log(counter);
     var count=parseInt(counter);
+      
+ if(count <= 148) {
+ 
+          clearInterval(func);
+     } 
 $(document).ready(function(){
 	   $.get("/getItems/"+count, function(response, status){
            console.log(response);
@@ -61,6 +65,8 @@ $(document).ready(function(){
     counter=parseInt(counter);
     counter+=1;
     counter=counter.toString();
+    
+    
     localStorage.setItem('p',counter);
     
 }
