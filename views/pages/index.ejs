@@ -48,16 +48,30 @@ function funcCall(){
           
          tr="<tr>";
          td1="<td>"+data["ID"]+"</td>";
-           td2="<td>"+data["UNITID"]+"</td>";
+        td2="<td>"+data["UNITID"]+"</td>";
         td3="<td>"+data["INSTNM"]+"</td>";
         td4="<td>"+data["ADDR"]+"</td>";
         td5="<td>"+data["CITY"]+"</td></tr>";
+          $("#table1").append(tr+td1+td2+td3+td4+td5); 
+        var x = document.getElementById("#table1").rows.length; 
+        if(x>19)
+        {
+            removeFirstRowAndAppendNewItem(data)
+          
+        }
+           
+        function removeFirstRowAndAppendNewItem(data)
+        {
+          console.log("in callback"); // to confirm we have reached here
+        $('#table1 tr:first').fadeOut(2000, function() {
+               $('#table1 tr:first').remove();
+               
+               
+          });
+        }   
+           
+           
         
-
-       $("#table1").append(tr+td1+td2+td3+td4+td5);   
-            
-           
-           
          
     
        });
