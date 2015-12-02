@@ -5,14 +5,20 @@
 </head>
 
 <body>
-<h3> a table</h3>
+<h3> A table</h3>
     
 <table id="table1" >
     
-    <tr><th>ID</th><th>UNITID</th><th>INSTNM</th><th>ADDR</th><th>CITY</th></tr>;
+    <tr>
+        <th>ID</th>
+        <th>UNITID</th>
+        <th>INSTNM</th>
+        <th>ADDR</th>
+        <th>CITY</th>
+  </tr>
            
     
-    </table> 
+</table> 
     
     
 <script type="text/javascript">
@@ -20,7 +26,7 @@
 var th,tr,td1,td2;
 
     
-localStorage.setItem('p',1);
+localStorage.setItem('p',1)
     
 var func=setInterval(funcCall,500);
     
@@ -30,8 +36,9 @@ var func=setInterval(funcCall,500);
 function funcCall(){  
    var counter=localStorage.getItem('p'); 
     console.log(counter);
+    var count=parseInt(counter);
 $(document).ready(function(){
-	   $.get("/getItems/"+counter, function(response, status){
+	   $.get("/getItems/"+count, function(response, status){
            console.log(response);
            
            var obj = jQuery.parseJSON(response);
@@ -54,6 +61,7 @@ $(document).ready(function(){
     
     counter=parseInt(counter);
     counter+=1;
+    counter=counter.toString();
     localstorage.setItem('p',counter);
     
 }
