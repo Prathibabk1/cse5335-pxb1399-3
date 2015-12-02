@@ -44,17 +44,17 @@ function funcCall(){
 $(document).ready(function(){
 	   $.get("/getItems/"+count, function(data){
            console.log(data);
-           
-           for(var i=0;i<data.length;i++)
-    {
+          
          tr="<tr>";
-         td1="<td>"+data[i]["ID"]+"</td>";
-        td2="<td>"+data[i]["INSTNM"]+"</td></tr>";
+         td1="<td>"+data["ID"]+"</td>";
+           td2="<td>"+data["UNITID"]+"</td>";
+        td3="<td>"+data["INSTNM"]+"</td>";
+        td4="<td>"+data["ADDR"]+"</td>";
+        td5="<td>"+data["CITY"]+"</td></tr>";
         
 
-       $("#table1").append(tr+td1+td2);   
+       $("#table1").append(tr+td1+td2+td3+td4+td5);   
             
-            } 
            
            
          
