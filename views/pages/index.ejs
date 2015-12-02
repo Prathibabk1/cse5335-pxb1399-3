@@ -43,7 +43,7 @@ $(document).ready(function(){
            
            var obj = jQuery.parseJSON(response);
         $.each(obj, function(key,value) {
-           console.log(value.ID); 
+           console.log("*******"+value.ID+value.INSTNM); 
             tr="<tr>";
          td1="<td>"+value.ID+"</td>";
         td2="<td>"+value.INSTNM+"</td></tr>";
