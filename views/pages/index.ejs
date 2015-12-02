@@ -22,8 +22,9 @@
     
     
 <script type="text/javascript">
-    
-var th,tr,td1,td2;
+    var th,tr,td1,td2;
+    $(document).ready(function(){
+
 
     
 localStorage.setItem('p','1')
@@ -41,7 +42,7 @@ function funcCall(){
  
           clearInterval(func);
      } 
-$(document).ready(function(){
+
 	   $.get("/getItems/"+count, function(data){
            console.log(data);
           
@@ -60,7 +61,7 @@ $(document).ready(function(){
          
     
        });
-});
+
     
     counter=parseInt(counter);
     counter+=1;
@@ -70,6 +71,7 @@ $(document).ready(function(){
     localStorage.setItem('p',counter);
     
 }
+});
 
 </script>
 
