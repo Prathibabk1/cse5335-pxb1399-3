@@ -36,12 +36,12 @@ myCollection.findOne({ID:k},function(err, result){
         console.log(result);
 console.log(result.ID + ","+ result.UNITID +","+ result.INSTNM +","+ result.ADDR+","+result.CITY+","+result.STABBR+","+result.ZIP);
 
-
+ res.send(result); 
 }); 
 
 });
    
- res.send(result);   
+  
     
 }); 
 
