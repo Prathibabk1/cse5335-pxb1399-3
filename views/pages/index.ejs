@@ -56,8 +56,8 @@
                   $("#table1").append(tr+td1+td2+td3+td4+td5); 
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
-                $('#table1').fadeOut(9000);
-                $('#table1').fadeIn(1000);
+                $('#table1').fadeOut(3000);
+                $('#table1').fadeIn(9000);
                 if(rowCount>=20)
                 {
                     removeFirstRowAndAppendNewItem(data)
@@ -67,7 +67,7 @@
                 function removeFirstRowAndAppendNewItem(data)
                 {
                   console.log("in callback"); // to confirm we have reached here
-                    $('tr:first').remove();
+                    document.getElementById("#table1").deleteRow(1);
 
                 }   
 
