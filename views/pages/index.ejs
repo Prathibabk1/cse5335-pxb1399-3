@@ -12,9 +12,11 @@
     <tr>
         <th>ID</th>
         <th>UNITID</th>
-        <th>INSTNM</th>
-        <th>ADDR</th>
+        <th>INSTITUTION NAME</th>
+        <th>ADDRESS</th>
         <th>CITY</th>
+        <th>STATE</th>
+        <th>ZIP</th>
   </tr>
            
     
@@ -56,8 +58,8 @@
                   $("#table1").append(tr+td1+td2+td3+td4+td5); 
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
-                $('#table1').fadeOut(3000);
-                $('#table1').fadeIn(9000);
+                $('#table1').fadeOut(6000);
+                $('#table1').fadeIn(3000);
                 if(rowCount>=20)
                 {
                     removeFirstRowAndAppendNewItem(data)
@@ -67,7 +69,7 @@
                 function removeFirstRowAndAppendNewItem(data)
                 {
                   console.log("in callback"); // to confirm we have reached here
-                    document.getElementById("#table1").deleteRow(1);
+                    $('tr:first').remove();
 
                 }   
 
