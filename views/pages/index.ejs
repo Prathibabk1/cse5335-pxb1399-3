@@ -23,69 +23,70 @@
     
 <script type="text/javascript">
     var th,tr,td1,td2;
+    
+    
+    
     $(document).ready(function(){
 
+        localStorage.setItem('p','1')
 
+        var func=setInterval(funCall,500);
     
-localStorage.setItem('p','1')
-    
-var func=setInterval(funcCall,500);
-    
-    
-    
-function funcCall(){  
-   var counter=localStorage.getItem('p'); 
-    
-    var count=parseInt(counter);
-      
- if(count == 148) {
- 
-          clearInterval(func);
-     } 
+        function funCall(){  
+           var counter=localStorage.getItem('p'); 
 
-	   $.get("/getItems/"+count, function(data){
-           
-          
-         tr="<tr>";
-         td1="<td>"+data["ID"]+"</td>";
-        td2="<td>"+data["UNITID"]+"</td>";
-        td3="<td>"+data["INSTNM"]+"</td>";
-        td4="<td>"+data["ADDR"]+"</td>";
-        td5="<td>"+data["CITY"]+"</td></tr>";
-          $("#table1").append(tr+td1+td2+td3+td4+td5); 
-         var rowCount = $('#table1 tr').length; 
-        console.log(rowCount);
-        $('#table1').fadeOut(5000);
-        $('#table1').fadeIn(1000);
-        if(rowCount>20)
-        {
-            removeFirstRowAndAppendNewItem(data)
-          
+            var count=parseInt(counter);
+
+         if(count == 148) {
+
+                  clearInterval(func);
+             } 
+
+               $.get("/getItems/"+count, function(data){
+
+
+                 tr="<tr>";
+                td1="<td>"+data["ID"]+"</td>";
+                td2="<td>"+data["UNITID"]+"</td>";
+                td3="<td>"+data["INSTNM"]+"</td>";
+                td4="<td>"+data["ADDR"]+"</td>";
+                td4="<td>"+data["CITY"]+"</td>";
+                td4="<td>"+data["STABBR"]+"</td>";
+                td5="<td>"+data["ZIP"]+"</td></tr>";
+                  $("#table1").append(tr+td1+td2+td3+td4+td5); 
+                 var rowCount = $('#table1 tr').length; 
+                console.log(rowCount);
+                $('#table1').fadeOut(9000);
+                $('#table1').fadeIn(1000);
+                if(rowCount>=20)
+                {
+                    removeFirstRowAndAppendNewItem(data)
+
+                }
+
+                function removeFirstRowAndAppendNewItem(data)
+                {
+                  console.log("in callback"); // to confirm we have reached here
+                    $('tr:first').remove();
+
+                }   
+
+
+
+
+
+               });
+
+
+            counter=parseInt(counter);
+            counter+=1;
+            counter=counter.toString();
+
+
+            localStorage.setItem('p',counter);
+
         }
-           
-        function removeFirstRowAndAppendNewItem(data)
-        {
-          console.log("in callback"); // to confirm we have reached here
-            $('tr:first').remove();
-          
-        }   
-           
-           
-        
-         
-    
-       });
-
-    
-    counter=parseInt(counter);
-    counter+=1;
-    counter=counter.toString();
-    
-    
-    localStorage.setItem('p',counter);
-    
-}
-});
+        });
 
 </script>
 
