@@ -60,6 +60,13 @@
                 console.log(rowCount);
                 $('#table1').fadeOut(6000);
                 $('#table1').fadeIn(3000);
+                   
+                $('#table1') .animate({
+            left: '250px',
+            opacity: '0.5',
+            height: '150px',
+            width: '150px'
+        });
                 if(rowCount>=20)
                 {
                     removeFirstRowAndAppendNewItem(data)
