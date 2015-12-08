@@ -25,9 +25,7 @@
     
 <script type="text/javascript">
     var th,tr,td1,td2;
-    
-    
-    
+      
     $(document).ready(function(){
 
         localStorage.setItem('p','1')
@@ -55,17 +53,18 @@
                 td5="<td>"+data["CITY"]+"</td>";
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
-                  $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7).fadeIn(3000); 
+                  $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
+                   $('#table1 tr').fadeIn(500);
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
                
                    
                 $('#table1') .animate({
-            left: '250px',
-            opacity: '0.5',
-            height: '50px',
-            width: '150px'
-        });
+                    left: '250px',
+                    opacity: '0.5',
+                    height: '50px',
+                    width: '150px'
+                 });
                 if(rowCount>=20)
                 {
                     removeFirstRowAndAppendNewItem(data)
