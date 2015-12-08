@@ -55,11 +55,10 @@
                 td5="<td>"+data["CITY"]+"</td>";
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
-                  $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
+                  $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7).fadeIn(3000); 
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
-                $('#table1').fadeOut(6000);
-                $('#table1').fadeIn(3000);
+               
                    
                 $('#table1') .animate({
             left: '250px',
