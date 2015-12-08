@@ -54,8 +54,8 @@
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
                   $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
-                   $('#table1 tr').fadeIn(500);
-                   $('#table1 tr').fadeOut(500);
+                   $('#table1 tr:nth-child(2):').fadeIn("fast");
+                   
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
                
