@@ -7,7 +7,7 @@
 <body>
 <h3> A table</h3>
     
-<table id="table1" style="background:#98bf21;height:50px;width:150px;position:absolute" >
+<table id="table1"  >
     
     <tr>
         <th>ID</th>
@@ -54,17 +54,15 @@
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
                   $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
-                   $('tr').fadeIn("slow");
-                   $('tr').stop();
+                   
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
                
                    
-                $('#table1') .animate({
-                    left: '250px',
+                $('tr') .animate({
+        
                     opacity: '0.5',
-                    height: '50px',
-                    width: '150px'
+                    
                  });
                 if(rowCount>=20)
                 {
