@@ -1,38 +1,21 @@
-# node-js-getting-started
+# Implementation Easy
+I found the implementation of server easy as I had exposure to mongoDB in project2 and sending the content from server to client had been known form project1.
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+# Implementation Difficult
+ I found the implementation of client side difficult as we had to figure out a way to generate the key to make ajax calls every 0.5s interval and the local storage made it easier to overcome this difficulty.
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+# Concern on using nodejs professionally
+- Event driven model will confuse a lot of programmers who are new to JavaScript.
+- The callback chain can get very long which makes it harder to maintain.One must often need to grab some data to determine the next step in web programming, which means a long chain of callbacks.
+-  Node API is changing very rapidly which might cause incompatibility and bugs when you upgrade.  
+-  Another difficult is to getting used to asynchronus programming model
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Running Locally
+ 
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
 
-## Documentation
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
