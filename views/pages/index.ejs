@@ -54,7 +54,7 @@
                    var rowCount = $('#table1 tr').length;
 
 
-                 tr="<tr id="+rowCount+" >";
+                 tr="<tr id= "+rowCount+" >";
                 td1="<td>"+data["ID"]+"</td>";
                 td2="<td>"+data["UNITID"]+"</td>";
                 td3="<td>"+data["INSTNM"]+"</td>";
@@ -63,9 +63,9 @@
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
                   $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
+                   $('#table1 tr '+rowCount).addClass('tab');
+                   $('#table1 tr '+rowCount).fadeIn("slow");
                    
-                   $('#table1 tr'+rowCount) .fadeIn("slow");
-              $('#table1 tr'+rowCount).addClass('tab');     
                   
                 console.log(rowCount);
                
