@@ -52,7 +52,7 @@
 
                $.get("/getItems/"+count, function(data){
 
-                 tr="<tr>";
+                tr="<tr>";
                 td1="<td>"+data["ID"]+"</td>";
                 td2="<td>"+data["UNITID"]+"</td>";
                 td3="<td>"+data["INSTNM"]+"</td>";
@@ -80,7 +80,7 @@
                   $("table#table1 tr:nth-child(2)").remove();
                   $("table#table1 tr:nth-child(20)").fadeIn(300).addClass('tab');
                   $("table#table1 tr:nth-child(20)").fadeOut(300).addClass('tab');
-                  $("table#table1 tr:nth-child(19)").removeClass('tab');
+                 
                 }   
 
                });
