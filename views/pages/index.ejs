@@ -59,16 +59,13 @@
                 td5="<td>"+data["CITY"]+"</td>";
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
-                  $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
-                   
-               
-                   
-                   
+                $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7); 
+                       
+                $("table#table1 tr:nth-child(2)").css("color","blue"); 
+                $("table#table1 tr:nth-child(2)").fadeIn("slow"); 
                 var rowCount = $('#table1 tr').length;  
                 console.log(rowCount);
                
-                   
-                
                 if(rowCount>20)
                 {
                     removeFirstRowAndAppendNewItem(data)
@@ -78,16 +75,9 @@
                 function removeFirstRowAndAppendNewItem(data)
                 {
                   console.log("in callback"); // to confirm we have reached here
-                    $("table#table1 tr:nth-child(2)").remove();
-                     $('#table1 tr').css("color","blue");
+                  $("table#table1 tr:nth-child(2)").remove();
                   
-                  $('#table1 tr').fadeIn(3000);
-
                 }   
-
-
-
-
 
                });
 
