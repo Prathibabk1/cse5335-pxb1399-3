@@ -5,6 +5,7 @@
     <style>
 .tab{
    background-color:pink;
+    opacity:8.0
 }
     </style> 
     
@@ -59,7 +60,8 @@
                 td5="<td>"+data["CITY"]+"</td>";
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
-                $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7).fadeIn(300).addClass('tab'); 
+                $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7);
+                   tr.find(last).fadeIn(300); 
                        
                
                 
