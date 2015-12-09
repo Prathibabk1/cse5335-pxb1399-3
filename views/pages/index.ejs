@@ -3,10 +3,10 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style>
-.tab{
+#tab{
    background-color:pink;
-    
-}
+     display: none;
+ } 
     </style> 
     
     
@@ -50,18 +50,18 @@
 
                $.get("/getItems/"+count, function(data){
 
-                tr="<tr>";
+                tr="<tr> <div>";
                 td1="<td>"+data["ID"]+"</td>";
                 td2="<td>"+data["UNITID"]+"</td>";
                 td3="<td>"+data["INSTNM"]+"</td>";
                 td4="<td>"+data["ADDR"]+"</td>";
                 td5="<td>"+data["CITY"]+"</td>";
                 td6="<td>"+data["STABBR"]+"</td>";
-                td7="<td>"+data["ZIP"]+"</td></tr>";
+                td7="<td>"+data["ZIP"]+"</td><div></tr>";
                 $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7);
                    
                        
-               $( "#table1 tr:last" ).css({ backgroundColor: "yellow", fontWeight: "bolder" }).fadeIn(300);
+               $(this).find('div').fadeIn(300);
                 
                 var rowCount = $('#table1 tr').length;  
                 console.log(rowCount);
