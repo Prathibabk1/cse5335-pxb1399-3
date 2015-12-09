@@ -62,7 +62,7 @@
                    
                        
                $("#table1 tr").fadeIn(300);
-                
+                $("table#table1 tr:nth-child(20)").addClass('tab').fadeOut(300);
                 var rowCount = $('#table1 tr').length;  
                 console.log(rowCount);
                
@@ -76,7 +76,7 @@
                 {
                   console.log("in callback"); // to confirm we have reached here
                   $("table#table1 tr:nth-child(2)").remove();
-                  $("table#table1 tr:nth-child(20)").addClass('tab');
+                  
                   
                  
                 }   
