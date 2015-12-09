@@ -2,12 +2,19 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+.tab{
+   background-color:green;
+}
+    </style> 
+    
+    
 </head>
 
 <body>
 <h3> A table</h3>
     
-<table id="table1"  >
+<table id="table1" border="border" >
     
     <tr>
         <th>ID</th>
@@ -54,7 +61,7 @@
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
                   $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7).fadeIn(500); 
-                   
+                    $("#table1").addClass('tab');
                  var rowCount = $('#table1 tr').length; 
                 console.log(rowCount);
                
