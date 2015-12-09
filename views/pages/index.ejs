@@ -5,7 +5,7 @@
     <style>
 .tab{
    background-color:pink;
-    opacity:8.0
+    
 }
     </style> 
     
@@ -61,7 +61,7 @@
                 td6="<td>"+data["STABBR"]+"</td>";
                 td7="<td>"+data["ZIP"]+"</td></tr>";
                 $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7);
-                   tr.find(last).fadeIn(300); 
+                   
                        
                
                 
@@ -79,6 +79,7 @@
                   console.log("in callback"); // to confirm we have reached here
                   $("table#table1 tr:nth-child(2)").remove();
                   $("table#table1 tr:nth-child(20)").fadeIn(300).addClass('tab');
+                  $("table#table1 tr:nth-child(20)").fadeOut(300).addClass('tab');
                   $("table#table1 tr:nth-child(19)").removeClass('tab');
                 }   
 
