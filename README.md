@@ -6,7 +6,7 @@ I found the implementation of server easy as I had exposure to mongoDB in projec
 
 # Concern on using nodejs professionally
 - Event driven model will confuse a lot of programmers who are new to JavaScript.
-- The callback chain can get very long which makes it harder to maintain.One must often need to grab some data to determine the next step in web programming, which means a long chain of callbacks.
+- The callback chain can get very long which makes it harder to maintain. A long chain of callbacks to get the data asynchronously.
 -  Node API is changing very rapidly which might cause incompatibility and bugs when you upgrade.  
 -  Another difficult is to getting used to asynchronus programming model
 
