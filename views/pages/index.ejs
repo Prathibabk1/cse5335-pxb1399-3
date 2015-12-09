@@ -50,18 +50,18 @@
 
                $.get("/getItems/"+count, function(data){
 
-                tr="<tr> <div>";
-                td1="<td><div> "+data["ID"]+"</div></td>";
-                td2="<td><div>"+data["UNITID"]+"</div></td>";
-                td3="<td><div>"+data["INSTNM"]+"</div></td>";
-                td4="<td><div>"+data["ADDR"]+"</div></td>";
-                td5="<td><div>"+data["CITY"]+"</div></td>";
-                td6="<td><div>"+data["STABBR"]+"</div></td>";
-                td7="<td><div>"+data["ZIP"]+"</div></td></div></tr>";
+                tr="<tr> ";
+                td1="<td> "+data["ID"]+"</div></td>";
+                td2="<td>"+data["UNITID"]+"</div></td>";
+                td3="<td>"+data["INSTNM"]+"</div></td>";
+                td4="<td>"+data["ADDR"]+"</div></td>";
+                td5="<td> "+data["CITY"]+"</div></td>";
+                td6="<td> "+data["STABBR"]+"</div></td>";
+                td7="<td> "+data["ZIP"]+"</div></td></tr>";
                 $("#table1").append(tr+td1+td2+td3+td4+td5+td6+td7);
                    
                        
-               $("#table1 tr:div").fadeIn(300);
+               $("#table1 tr".fadeIn(300);
                 
                 var rowCount = $('#table1 tr').length;  
                 console.log(rowCount);
@@ -76,6 +76,7 @@
                 {
                   console.log("in callback"); // to confirm we have reached here
                   $("table#table1 tr:nth-child(2)").remove();
+                  $("table#table1 tr:nth-child(20)").addClass('tab');
                   
                  
                 }   
